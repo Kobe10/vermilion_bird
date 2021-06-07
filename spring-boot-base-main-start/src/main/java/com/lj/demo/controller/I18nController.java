@@ -9,8 +9,6 @@ import com.lj.spring.i18n.core.util.dbUtil.I18nDBUtil;
 import com.lj.spring.i18n.core.util.dbUtil.I18nFormatValue;
 import com.lj.spring.i18n.core.util.enumUtil.I18nEnumInterface;
 import com.lj.spring.i18n.core.util.sourceUtil.I18nSourceUtil;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

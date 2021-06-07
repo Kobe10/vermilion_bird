@@ -4,6 +4,7 @@ import com.lj.spring.web.version.core.expression.ApiVersionExpression;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.springframework.web.servlet.mvc.condition.AbstractRequestCondition;
 
 import javax.servlet.http.HttpServletRequest;
@@ -15,6 +16,7 @@ import java.util.*;
 @Data
 @AllArgsConstructor
 @Builder
+@EqualsAndHashCode(callSuper=false)
 public class ApiVersionCondition extends AbstractRequestCondition<ApiVersionCondition> {
 
     private Set<ApiVersionExpression> expressions;

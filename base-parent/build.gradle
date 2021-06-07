@@ -23,7 +23,6 @@ buildscript {
 allprojects {
     group = 'com.lj.springBoot'
     version = '1.0-SNAPSHOT'
-
 }
 
 subprojects {
@@ -55,7 +54,6 @@ subprojects {
     dependencies {
         compile 'org.projectlombok:lombok:1.18.6'
         compile files("${System.properties['java.home']}/lib/tools.jar")
-
     }
 
     // 通用依赖
