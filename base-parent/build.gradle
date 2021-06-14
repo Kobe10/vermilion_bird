@@ -63,7 +63,6 @@ subprojects {
         mavenCentral()
     }
 
-
     dependencyManagement {
         imports {
             mavenBom 'org.springframework.boot:spring-boot-dependencies:2.1.6.RELEASE'
@@ -103,6 +102,5 @@ subprojects {
         all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
         all*.exclude group: 'commons-logging'
         all*.exclude group: 'commons-beanutils', module: 'commons-beanutils'
-
     }
 }
