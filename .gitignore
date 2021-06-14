@@ -35,7 +35,7 @@ logs/
 work/
 log/
 *.doc
-*.log
+#*.log
 *.cache
 *.diff
 *.patch

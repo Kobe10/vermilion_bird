@@ -48,7 +48,7 @@ v1.0 初始化 1.0.1
 │       ├── xbk-common-starter-es
 │       ├── xbk-common-starter-httpclient
 │       ├── xbk-common-starter-mybatis
-│       ├── xbk-common-starter-redis
+│       ├── xbk-common-starter-redisThreadPoolTaskFactory
 │       └── xbk-common-starter-web
 ```
 
