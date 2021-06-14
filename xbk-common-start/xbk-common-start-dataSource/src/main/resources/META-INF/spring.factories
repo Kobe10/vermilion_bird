@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.xbk.spring.datesource.support.XbkDataSourceAutoConfiguration,\
+  com.xbk.spring.datesource.support.XbkDynamicAutoConfiguration,\
+  com.xbk.spring.datesource.support.XbkTransactionAutoConfiguration

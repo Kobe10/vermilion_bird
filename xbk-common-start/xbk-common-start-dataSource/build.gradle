@@ -1,0 +1,11 @@
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-aop'
+    compile 'org.springframework.boot:spring-boot-starter-jdbc'
+
+    compile 'mysql:mysql-connector-java:8.0.15'
+    compile 'com.alibaba:druid:1.1.24'
+    compile 'tk.mybatis:mapper-spring-boot-starter:2.0.2'
+    compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
+    compileOnly 'com.github.pagehelper:pagehelper:5.1.4'
+}
