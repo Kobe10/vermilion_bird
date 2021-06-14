@@ -1,4 +1,11 @@
-# 小班课基础组件 
+# 注意
+切勿点击idea的自动导入gradle项目提示；只需要找到base-parent目录下面的build.gradle文件，右键然后点击 `import gradle project`
+这样就能自动导入所有模块了，不然的话还得手动删掉其他的多余模块
+## module  依赖图
+![](https://tva1.sinaimg.cn/large/008i3skNly1gri2nwvhqoj30na0t6adx.jpg)
+
+
+# 小班课基础组件
 ## 项目名称
 ### 真实姓名 
 朱雀 -- 四大神兽之一
