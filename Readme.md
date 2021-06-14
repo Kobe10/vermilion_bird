@@ -60,11 +60,10 @@ v1.0 初始化 1.0.1
 * [`xbk-base-parent`](#base-parent)
 * [`xbk-common-core-global`](#xbk-common-core-global)
 * [`xbk-common-core-utils`](#xbk-common-core-utils)
-* [`xbk-common-starter-cache`](#xbk-common-starter-cache)
-* [`xbk-common-starter-datasource`](#xbk-common-starter-datasource)
-* [`xbk-common-demo-feign-api`](#xbk-common-starter-feign)
-* [`xbk-common-demo-web`](#xbk-common-starter-feign)
+* [`xbk-common-demo-feign-api`](#xbk-common-demo-feign-api)
+* [`xbk-common-demo-web`](#xbk-common-demo-web)
 * [`xbk-common-starter-es`](#xbk-common-starter-es)
+* [`xbk-common-starter-datasource`](#xbk-common-starter-datasource)
 * [`xbk-common-starter-httpclient`](#xbk-common-starter-httpclient)
 * [`xbk-common-starter-mybatis`](#xbk-common-starter-mybatis)
 * [`xbk-common-starter-redis`](#xbk-common-starter-redis)
@@ -190,7 +189,7 @@ project(':xbk-common-core').projectDir = file('../xbk-common-core')
 
 ---
 
-## xbk-common-demo-web
+## xbk-common-starter-datasource
 
 <details>
 <summary>基于spring-boot配置的多数据源自动注入、mybatis组件自动装配</summary>
@@ -321,7 +320,7 @@ spring.http.rest-client.type = okHttp3 //默认
 
 ---
 
-## rock-common-starter-mybatis
+## xbk-common-starter-mybatis
 
 <details>
 <summary>基于tk.mybatis.mapper.starter 简单sql工具、pagehelper-spring-boot-starter分页工具</summary>
