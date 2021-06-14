@@ -31,9 +31,9 @@ target/
 
 # temp ignore
 classes/
-logs/
+
 work/
-log/
+
 *.doc
 #*.log
 *.cache
